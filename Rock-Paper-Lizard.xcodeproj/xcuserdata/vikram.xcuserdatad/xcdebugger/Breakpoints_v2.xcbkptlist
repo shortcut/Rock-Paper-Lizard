@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ECF46FA2-D958-4A95-9063-C26ACC915170"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5563A00-E151-4AF5-A96F-40FDD3BBA011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rock-Paper-Lizard/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E5563A00-E151-4AF5-A96F-40FDD3BBA011 - a562d957b8ef1a7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "E5563A00-E151-4AF5-A96F-40FDD3BBA011 - edb3dd9313ca9765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "E5563A00-E151-4AF5-A96F-40FDD3BBA011 - 90deb7ba1d144678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "E5563A00-E151-4AF5-A96F-40FDD3BBA011 - 50c938f09a4e207d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD42CD74-C83C-45AB-B66A-55350B6AB2D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rock-Paper-Lizard/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DD42CD74-C83C-45AB-B66A-55350B6AB2D4 - 7a3b6d9ef73d8151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+               <Location
+                  uuid = "DD42CD74-C83C-45AB-B66A-55350B6AB2D4 - 7a3b6d9ef73d8151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8E14299-6E9F-4EC4-BE15-B13D99A347D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rock-Paper-Lizard/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F8E14299-6E9F-4EC4-BE15-B13D99A347D0 - f836efb767722a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rock_Paper_Lizard.ContentView.handFormation(for: ARKit.HandSkeleton) -&gt; Rock_Paper_Lizard.HandFormation"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+               <Location
+                  uuid = "F8E14299-6E9F-4EC4-BE15-B13D99A347D0 - 7a3b6d9ef73d8fea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #2 @Sendable () async -&gt; () in Rock_Paper_Lizard.ContentView.body.getter : some"
+                  moduleName = "Rock-Paper-Lizard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vikram/Documents/ios-meetings/Rock-Paper-Lizard/Rock-Paper-Lizard/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

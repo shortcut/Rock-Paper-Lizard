@@ -11,7 +11,12 @@ import SwiftUI
 struct Rock_Paper_LizardApp: App {
     var body: some Scene {
         WindowGroup {
+            StartView()
+        }
+
+        ImmersiveSpace(id: "gameSpace") {
             ContentView()
         }
+        .immersionStyle(selection: .constant(.mixed), in: .mixed)
     }
 }
