@@ -6,22 +6,53 @@
 //
 
 import SwiftUI
+import RealityKit
+import RealityKitContent
+import ARKit
 
 struct StartView: View {
+    @EnvironmentObject var gameModel: GameModel
+
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
-    @Environment(\.dismiss) private var dismiss
+    @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
 
     var body: some View {
         VStack {
-            Button {
-                Task {
-                    await openImmersiveSpace(id: "gameSpace")
-                    dismiss()
+            if gameModel.isPlaying {
+                Group {
+                    switch gameModel.handFormation {
+                    case .rock:
+                        Text("👊")
+                    case .paper:
+                        Text("🤚")
+                    case .scissors:
+                        Text("🖖")
+                    case .none:
+                        Text("Unknown")
+                    }
                 }
-            } label: {
-                Text("Start")
+                .font(.largeTitle)
+
+                if let handFormation = gameModel.handFormation {
+                    Text(handFormation.rawValue)
+                        .font(.title)
+                }
             }
 
+            Button {
+                gameModel.isPlaying.toggle()
+            } label: {
+                Text(gameModel.isPlaying ? "End game" : "Start game")
+            }
+        }
+        .onChange(of: gameModel.isPlaying) { oldValue, newValue in
+            Task {
+                if oldValue {
+                    await dismissImmersiveSpace()
+                } else {
+                    await openImmersiveSpace(id: "gameSpace")
+                }
+            }
         }
     }
 }

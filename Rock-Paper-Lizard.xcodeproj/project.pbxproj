@@ -10,9 +10,11 @@
 		AC3BCBC92B76DD7E0080B219 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BCBC82B76DD7E0080B219 /* StartView.swift */; };
 		AC5906AF2B76C55B00CB7208 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = AC5906AE2B76C55B00CB7208 /* RealityKitContent */; };
 		AC5906B12B76C55B00CB7208 /* Rock_Paper_LizardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5906B02B76C55B00CB7208 /* Rock_Paper_LizardApp.swift */; };
-		AC5906B32B76C55B00CB7208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5906B22B76C55B00CB7208 /* ContentView.swift */; };
+		AC5906B32B76C55B00CB7208 /* GameViewSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5906B22B76C55B00CB7208 /* GameViewSpace.swift */; };
 		AC5906B52B76C55C00CB7208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5906B42B76C55C00CB7208 /* Assets.xcassets */; };
 		AC5906B82B76C55C00CB7208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5906B72B76C55C00CB7208 /* Preview Assets.xcassets */; };
+		E25E34282B8FB4020048285F /* SIMD+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E34272B8FB4020048285F /* SIMD+Extensions.swift */; };
+		E25E342A2B8FC2A60048285F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E34292B8FC2A60048285F /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +22,12 @@
 		AC5906A92B76C55B00CB7208 /* Rock-Paper-Lizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock-Paper-Lizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5906AD2B76C55B00CB7208 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		AC5906B02B76C55B00CB7208 /* Rock_Paper_LizardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_LizardApp.swift; sourceTree = "<group>"; };
-		AC5906B22B76C55B00CB7208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC5906B22B76C55B00CB7208 /* GameViewSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewSpace.swift; sourceTree = "<group>"; };
 		AC5906B42B76C55C00CB7208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5906B72B76C55C00CB7208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC5906B92B76C55C00CB7208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25E34272B8FB4020048285F /* SIMD+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SIMD+Extensions.swift"; sourceTree = "<group>"; };
+		E25E34292B8FC2A60048285F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				AC5906B02B76C55B00CB7208 /* Rock_Paper_LizardApp.swift */,
+				E25E34292B8FC2A60048285F /* GameModel.swift */,
 				AC3BCBC82B76DD7E0080B219 /* StartView.swift */,
-				AC5906B22B76C55B00CB7208 /* ContentView.swift */,
+				AC5906B22B76C55B00CB7208 /* GameViewSpace.swift */,
+				E25E34272B8FB4020048285F /* SIMD+Extensions.swift */,
 				AC5906B42B76C55C00CB7208 /* Assets.xcassets */,
 				AC5906B92B76C55C00CB7208 /* Info.plist */,
 				AC5906B62B76C55C00CB7208 /* Preview Content */,
@@ -157,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25E342A2B8FC2A60048285F /* GameModel.swift in Sources */,
+				E25E34282B8FB4020048285F /* SIMD+Extensions.swift in Sources */,
 				AC3BCBC92B76DD7E0080B219 /* StartView.swift in Sources */,
-				AC5906B32B76C55B00CB7208 /* ContentView.swift in Sources */,
+				AC5906B32B76C55B00CB7208 /* GameViewSpace.swift in Sources */,
 				AC5906B12B76C55B00CB7208 /* Rock_Paper_LizardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

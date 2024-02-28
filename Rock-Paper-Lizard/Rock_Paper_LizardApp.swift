@@ -9,13 +9,17 @@ import SwiftUI
 
 @main
 struct Rock_Paper_LizardApp: App {
+    @StateObject var gameModel = GameModel()
+
     var body: some Scene {
-        WindowGroup {
+        WindowGroup(id: "startView") {
             StartView()
+                .environmentObject(gameModel)
         }
 
         ImmersiveSpace(id: "gameSpace") {
-            ContentView()
+            GameViewSpace()
+                .environmentObject(gameModel)
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
     }
