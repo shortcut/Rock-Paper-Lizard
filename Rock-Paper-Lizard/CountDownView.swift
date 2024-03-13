@@ -10,7 +10,7 @@ import SwiftUI
 struct CountDownView: View {
     @State var countDownSeconds: Int
     @Binding var shouldStartCountdown: Bool
-    let completion: (() -> Void)
+    @Binding var shouldStartGame: Bool
 
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -26,7 +26,7 @@ struct CountDownView: View {
                         }
                     } else {
                         timer.upstream.connect().cancel()
-                        completion()
+                        shouldStartGame = true
                     }
                 }
             }
@@ -34,7 +34,7 @@ struct CountDownView: View {
 }
 
 #Preview {
-    CountDownView(countDownSeconds: 3, shouldStartCountdown: .constant(true)) {
-        print("Start game")
-    }
+    CountDownView(countDownSeconds: 3,
+                  shouldStartCountdown: .constant(true),
+                  shouldStartGame: .constant(false))
 }
