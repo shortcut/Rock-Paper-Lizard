@@ -14,6 +14,6 @@ enum HandFormation: String {
 }
 
 class GameModel: ObservableObject {
-    @Published var isPlaying = false
+    @Published var isPlaying = true
     @Published var handFormation: HandFormation?
 }
