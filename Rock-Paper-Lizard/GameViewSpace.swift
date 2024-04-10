@@ -50,14 +50,14 @@ struct GameViewSpace: View {
                     }
                 }
             }
-//            .task {
-//                do {
-//                    try await Task.sleep(for: .milliseconds(1000))
-//                    gameModel.handFormation = .scissors
-//                } catch {
-//                    print(error)
-//                }
-//            }
+            .task {
+                do {
+                    try await Task.sleep(for: .milliseconds(1000))
+                    gameModel.handFormation = HandFormation.allCases.randomElement() ?? .scissors
+                } catch {
+                    print(error)
+                }
+            }
     }
 
     func handFormation(for handSkeleton: HandSkeleton) -> HandFormation? {
@@ -66,19 +66,19 @@ struct GameViewSpace: View {
         let ringFingerTipJoint = handSkeleton.joint(.ringFingerTip)
         let littleFingerTipJoint = handSkeleton.joint(.littleFingerTip)
         let forearmWristJoint = handSkeleton.joint(.forearmWrist)
-        
+
         let indexFingerTipJointToWrist = distance(indexFingerTipJoint.anchorFromJointTransform.columns.3.xyz,
                                                   forearmWristJoint.anchorFromJointTransform.columns.3.xyz)
-        
+
         let middleFingerTipJoinToWrist = distance(middleFingerTipJoint.anchorFromJointTransform.columns.3.xyz,
                                                   forearmWristJoint.anchorFromJointTransform.columns.3.xyz)
-        
+
         let ringFingerTipToWrist = distance(ringFingerTipJoint.anchorFromJointTransform.columns.3.xyz,
                                             forearmWristJoint.anchorFromJointTransform.columns.3.xyz)
-        
+
         let littleFingerTipToWrist = distance(littleFingerTipJoint.anchorFromJointTransform.columns.3.xyz,
                                               forearmWristJoint.anchorFromJointTransform.columns.3.xyz)
-        
+
         if indexFingerTipJointToWrist >= 0.15,
            middleFingerTipJoinToWrist >= 0.15,
            ringFingerTipToWrist >= 0.15,

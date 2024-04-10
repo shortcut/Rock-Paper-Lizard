@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		206548862BA20C9800CC0517 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206548852BA20C9800CC0517 /* CountDownView.swift */; };
+		4B0422562BC69B88009EC72E /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0422552BC69B88009EC72E /* PlayerCard.swift */; };
+		4B0422582BC69BD2009EC72E /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0422572BC69BD2009EC72E /* Highscore.swift */; };
 		AC3BCBC92B76DD7E0080B219 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BCBC82B76DD7E0080B219 /* StartView.swift */; };
 		AC5906AF2B76C55B00CB7208 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = AC5906AE2B76C55B00CB7208 /* RealityKitContent */; };
 		AC5906B12B76C55B00CB7208 /* Rock_Paper_LizardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5906B02B76C55B00CB7208 /* Rock_Paper_LizardApp.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		206548852BA20C9800CC0517 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		4B0422552BC69B88009EC72E /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		4B0422572BC69BD2009EC72E /* Highscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highscore.swift; sourceTree = "<group>"; };
 		AC3BCBC82B76DD7E0080B219 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AC5906A92B76C55B00CB7208 /* Rock-Paper-Lizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock-Paper-Lizard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5906AD2B76C55B00CB7208 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
@@ -67,9 +71,11 @@
 				AC5906B02B76C55B00CB7208 /* Rock_Paper_LizardApp.swift */,
 				E25E34292B8FC2A60048285F /* GameModel.swift */,
 				AC3BCBC82B76DD7E0080B219 /* StartView.swift */,
+				4B0422552BC69B88009EC72E /* PlayerCard.swift */,
 				AC5906B22B76C55B00CB7208 /* GameViewSpace.swift */,
 				E25E34272B8FB4020048285F /* SIMD+Extensions.swift */,
 				206548852BA20C9800CC0517 /* CountDownView.swift */,
+				4B0422572BC69BD2009EC72E /* Highscore.swift */,
 				AC5906B42B76C55C00CB7208 /* Assets.xcassets */,
 				AC5906B92B76C55C00CB7208 /* Info.plist */,
 				AC5906B62B76C55C00CB7208 /* Preview Content */,
@@ -171,6 +177,8 @@
 				206548862BA20C9800CC0517 /* CountDownView.swift in Sources */,
 				AC3BCBC92B76DD7E0080B219 /* StartView.swift in Sources */,
 				AC5906B32B76C55B00CB7208 /* GameViewSpace.swift in Sources */,
+				4B0422562BC69B88009EC72E /* PlayerCard.swift in Sources */,
+				4B0422582BC69BD2009EC72E /* Highscore.swift in Sources */,
 				AC5906B12B76C55B00CB7208 /* Rock_Paper_LizardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

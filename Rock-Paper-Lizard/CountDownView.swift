@@ -8,33 +8,20 @@
 import SwiftUI
 
 struct CountDownView: View {
-    @State var countDownSeconds: Int
-    @Binding var shouldStartCountdown: Bool
-    @Binding var shouldStartGame: Bool
 
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    @Binding var value: Int
+
+    init(value: Binding<Int>) {
+        self._value = value
+    }
 
     var body: some View {
-        Text("\(countDownSeconds)")
+        Text(value, format: .number)
             .font(.extraLargeTitle)
             .contentTransition(.numericText())
-            .onReceive(timer)  { _ in
-                if shouldStartCountdown {
-                    if countDownSeconds > 0 {
-                        withAnimation {
-                            countDownSeconds -= 1
-                        }
-                    } else {
-                        timer.upstream.connect().cancel()
-                        shouldStartGame = true
-                    }
-                }
-            }
     }
 }
 
 #Preview {
-    CountDownView(countDownSeconds: 3,
-                  shouldStartCountdown: .constant(true),
-                  shouldStartGame: .constant(false))
+    CountDownView(value: .constant(3))
 }
